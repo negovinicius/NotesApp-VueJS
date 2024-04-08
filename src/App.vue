@@ -10,7 +10,7 @@
    const color = "hsl(" + Math.random() * 360 + ", 100%, 75%)";
    return color; 
   }
-
+// alterei
   const addNote = () => {
     if(newNote.value.length < 10) {
       return errorMessage.value = "Note needs to be teen characters one more"
